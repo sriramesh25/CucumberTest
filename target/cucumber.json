@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9134188661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "login-feature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 175800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4479663971,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "MyStepdefs.iNavigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5157203,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following email:admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 28
+                }
+              ],
+              "location": "MyStepdefs.iEnterTheFollowingEmailAdmin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420122803,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the following for login",
+            "match": {
+              "location": "MyStepdefs.iEnterTheFollowingForLogin(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "admin",
+                  "admin"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 541642803,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click login button",
+            "match": {
+              "location": "MyStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60833357,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "MyStepdefs.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "This Feature deals with login functionality of the application",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  }
+]
